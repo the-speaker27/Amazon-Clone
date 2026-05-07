@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: rgb(255, 255, 255);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .signup-box {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 5px;
+            width: 320px;
+            height: 300px;
+            text-align: center;
+            border: 2px rgb(79, 77, 77) solid;
+            border-width: 1px;
+            margin-top: 1px;
+        }
+
+        .signup-box input {
+            width: 90%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #999;
+        }
+
+        .signup-btn {
+            width: 95%;
+            padding: 10px;
+            background: goldenrod;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .login-text {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .login-text a {
+            color: #005E8E;
+            text-decoration: none;
+        }
+
+        #ih {
+            justify-content: center;
+            align-items: center;
+            width: 10%;
+            margin-left: 610px;
+            margin-top: 50px;
+        }
+
+        #li {
+            margin-top: 50px;
+        }
+
+        .bl {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .bl a {
+            text-decoration: none;
+            color: #005E8E;
+        }
+
+        .bl p {
+            margin-top: 5px;
+            color:#999;
+        }
+
+        #co {
+            font-size: 11px;
+        }
+
+        #co a {
+            color: #005E8E;
+        }
+
+
+
+        .imh {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="imh">
+        <img src="img/im2.png" alt="" id="ih">
+    </span>
+    <div class="container">
+        <form action="Home.html">
+            <div class="signup-box">
+                <h2>Let's shop togather 🤝🎉</h2>
+                <p><b>Enter mobile number or email</b></p> <input type="text" placeholder="xxxxxxxxxx / example@user.com"> <button class="signup-btn">Sign
+                    in</button>
+                <p class="login-text"> Don't have an account? <a href="login.html">Sign up</a> </p>
+                <hr>
+                <p id="co">By continuing, you agree to Amazon's <a href="#">Conditions Of Use</a> and <a
+                        href="#">Privacy note</a></p>
+
+            </div>
+        </form>
+    </div>
+    <hr id="li">
+    <div class="bl">
+        <div class="links">
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Help</a>
+        </div>
+
+        <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+    </div>
+
+</body>
+
+</html>
